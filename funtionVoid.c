@@ -9,6 +9,7 @@ void sum(int x, int y)
 {
     int res = x + y;
     printf("%d", res);
+    return;
 }
 
 int main()
