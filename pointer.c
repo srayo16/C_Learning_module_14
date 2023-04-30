@@ -9,8 +9,12 @@ int main()
     // printf("%p\n", &x);
 
     int *p = &x;
-    printf("%p\n", p);
-    printf("%d\n", *p);
+    // printf("%p\n", p);
+    // printf("%d\n", *p);
+
+    // dereference
+    *p = 500;
+    printf("%d\n", x);
 
     return 0;
 }
